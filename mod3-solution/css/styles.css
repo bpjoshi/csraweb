@@ -1,25 +1,24 @@
-body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #663300;
-  font-family: 'Oxygen', sans-serif;
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-#header-nav {
-  background-color: #cccc00;
-  border-radius: 0;
-  border: 0;
+h1 {
+    font-size: 1.75em;
 }
 
-.navbar-brand { /* Restaur02nt name */
-  color: #000000
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+section {
+    background-color: #999999;
+    border: 1px solid #000000;
+    margin: 0 0 25px 0;
+    padding: 0;
 }
 
-#mainMenu{
-  text-align: center;
-  color: #000000
-  font-weight:bold;
-  font-size: 1.8em;
+section h3 {
+    font-size: 1.25em;
 }
+
+section p {
+    padding: 0 6px 4px 6px;
+}
+
